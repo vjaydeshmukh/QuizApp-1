@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityHelp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:text="Pellentesque scelerisque lacus vel ex rhoncus consectetur. Nunc eu tincidunt velit, ac bibendum nisl. Morbi sit amet lacinia eros, non eleifend est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In dapibus nunc a justo iaculis sodales. Aenean sed tincidunt ante. Pellentesque venenatis convallis ex, ac posuere tortor facilisis et. Suspendisse pharetra, neque in facilisis mattis, lorem augue mattis purus, a euismod sem est eu urna. Vivamus bibendum dui dui, vitae sodales nisl auctor faucibus. Nulla varius, elit et laoreet sollicitudin, nibh urna porta sem, nec vehicula elit massa vel justo. Pellentesque porttitor semper scelerisque. In non pretium mi. Duis luctus vehicula varius.
+
+Proin tempor magna in volutpat efficitur. Pellentesque et purus non arcu consequat sollicitudin. Aliquam in placerat ligula. Nulla vehicula bibendum velit id tempor. Pellentesque vestibulum neque arcu, ut cursus turpis porttitor blandit. Nullam a magna in nisi euismod tempus. Mauris quis lacus pellentesque, vulputate metus a, ullamcorper leo. Integer imperdiet gravida odio, placerat malesuada ex faucibus eget. Nullam augue ante, gravida eu eros in, aliquet ornare ante. Aenean ullamcorper condimentum libero ac condimentum. Aenean velit mauris, blandit eget arcu vel, gravida tincidunt odio. Vivamus gravida lectus orci, sed tempor diam placerat eget. Phasellus viverra urna at velit ornare, vel faucibus nibh dapibus. Nullam quis diam sed dolor dapibus imperdiet vel eu orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vitae ligula orci."
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

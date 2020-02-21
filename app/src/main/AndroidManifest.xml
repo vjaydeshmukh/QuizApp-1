@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myquizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".layout_score"></activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".Admin_QuizCategory" /> <!-- <activity android:name=".Admin_Leaderboard" /> -->
+        <activity android:name=".StatisticsActivity" />
+        <activity android:name=".ActivityHelp" />
+        <activity android:name=".SignUp" /> <!-- <activity android:name=".AddQuestionActivity" /> -->
+        <activity android:name=".AnswersActivity" />
+        <activity android:name=".EndgameActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".MainActivity" /> <!-- <activity android:name=".Login" /> -->
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".AdminPage" /> <!-- <activity android:name=".SplashActivity" /> -->
+        <activity android:name=".AddQuestionActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".Admin_Leaderboard"/>
+        <activity android:name=".SplashActivity">
+
+            <!-- <activity android:name=".AddQuestionActivity" > -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
