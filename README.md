@@ -7,3 +7,7 @@ These questions are randomly picked and sent on users android devices.
 User have to first create an account into the system for playing quiz. 
 At the end of the Quiz the system checks all the answer and generates a brief report card.
 Admin can see the report of different players scores for different categories.
+
+Team Member:
+Sujata Patil
+Heena Pallan
